@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATELIER — Fashion House</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+<header class="hero hero-arch" aria-label="Atelier opening">
+  <div class="hero-arch__canvas" aria-hidden="true"></div>
+
+  <div class="hero-arch__grid">
+    <div class="hero-arch__mast">
+      <p class="hero-arch__micro">ATELIER</p>
+      <p class="hero-arch__micro hero-arch__micro--muted">COLLECTION 01</p>
+    </div>
+
+    <div class="hero-arch__type">
+      <h1 class="hero-arch__headline"><span class="lux-mask"><span class="lux-mask__inner">THE NEW SILHOUETTE.</span></span></h1>
+      <p class="hero-arch__sub"><span class="lux-mask"><span class="lux-mask__inner">A study in form and movement. Collection 01 available for a limited time.</span></span></p>
+      <a class="hero-arch__cta" href="#" aria-label="Explore Collection 01">
+        <span class="hero-arch__cta-label">Explore the collection</span>
+      </a>
+    </div>
+
+    <div class="hero-arch__image" role="img" aria-label="Architectural campaign still" data-image="assets/collection.jpg" data-fallback-image="https://images.unsplash.com/photo-1520975958220-496b0d3f2bcb?auto=format&fit=crop&w=2400&q=80">
+      <div class="hero-arch__image-inner" aria-hidden="true"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="philosophy">
+    <div class="wrap">
+      <p class="section-label">Brand Philosophy</p>
+      <h2 class="reveal">Designed for Quiet Power</h2>
+      <p class="lede">A study in restraint: sharp tailoring, generous space, and materials that hold their line — and their silence.</p>
+      <div class="philosophy-grid">
+        <p class="philo">Precision over noise. A silhouette that reads from across the room.</p>
+        <p class="philo">Texture you feel before you see. Details that are discovered, not announced.</p>
+        <p class="philo">Craft built for years — not seasons.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="editorial">
+    <div class="wrap editorial-grid">
+      <div class="editorial-text">
+        <p class="section-label">Collection Preview</p>
+        <h2 class="reveal">THE COLLECTION</h2>
+        <p class="lede">Designed like film stills — quiet, intentional, unforgettable.</p>
+        <p class="body">Tailoring, essentials, and modern uniform. Built to move through cities, meetings, nights — with the same calm authority.</p>
+      </div>
+      <div class="editorial-image" role="img" aria-label="Editorial collection image" data-image="../assets/collection.jpg"></div>
+    </div>
+  </section>
+
+  <section class="products" aria-label="Collection categories">
+    <div class="wrap">
+      <div class="products-grid">
+        <article class="product" data-image="../assets/coat.jpg">
+          <p class="product-kicker">Outerwear</p>
+          <h3 class="product-title">Tailored Coats</h3>
+        </article>
+        <article class="product" data-image="../assets/white.jpg">
+          <p class="product-kicker">Essentials</p>
+          <h3 class="product-title">Signature Shirts</h3>
+        </article>
+        <article class="product" data-image="../assets/Dnim.jpg">
+          <p class="product-kicker">Modern Uniform</p>
+          <h3 class="product-title">Modern Denim</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-piece">
+    <div class="wrap piece-grid">
+      <div class="piece-image" role="img" aria-label="The Icon Jacket" data-image="../assets/jacket.jpg"></div>
+      <div class="piece-text">
+        <p class="section-label">Hero Product</p>
+        <h2 class="reveal">The Icon Jacket</h2>
+        <p class="lede">A single piece that defines the house: sculpted shoulders, clean lines, and a silhouette that holds its ground.</p>
+        <p class="body">A runway spotlight in real life — built for distance, designed for close.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lifestyle">
+    <div class="wrap">
+      <p class="section-label">Lifestyle / Emotion</p>
+      <h2 class="reveal">Luxury is a way of living</h2>
+      <p class="lede">Not louder. Not faster. Just more considered.</p>
+      <div class="lifestyle-frame" role="img" aria-label="Lifestyle editorial image" data-image="../assets/quiet.jpg"></div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <p class="section-label">Final CTA</p>
+      <h2 class="reveal">Enter the World of Atelier</h2>
+      <p class="lede">An invitation to refined uniform — made for a global life.</p>
+      <button type="button">Shop Collection</button>
+    </div>
+  </section>
+</main>
+
+<script src="main.js"></script>
+
+<div class="lux-cursor" aria-hidden="true"></div>
+</body>
+</html>
